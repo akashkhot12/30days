@@ -6,14 +6,14 @@ export default function App() {
   return (
     <div>
 
-{
-        DataList.map((ele)=>{
-        return <Data key={ele.id}
-        name ={ele.name}
-        username ={ele.username}
-        email ={ele.email}
-        address ={ele.address.street}
-        />
+      {
+        DataList.map((ele) => {
+          return <Data key={ele.id}
+            name={ele.name}
+            username={ele.username}
+            email={ele.email}
+            address={ele.address.street}
+          />
         })
       }
     </div>
